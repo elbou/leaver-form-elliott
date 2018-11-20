@@ -46,9 +46,7 @@
       },
       "label": "Leaver email address",
       "name": "email",
-      "validation": {
-        "pattern": "*@*.gov.uk"
-      }
+      "validation": {}
     },
     {
       "$component": true,
@@ -85,6 +83,24 @@
       ],
       "legend": "Employment type",
       "name": "input_auto__1"
+    },
+    {
+      "_id": "page.leaver-details--text.input_auto__4",
+      "_type": "text",
+      "label": "Other employment type",
+      "name": "input_auto__4",
+      "show": {
+        "identifier": "input_auto__1",
+        "operator": "is",
+        "value": "other"
+      },
+      "validation": {
+        "required": {
+          "identifier": "input_auto__1",
+          "operator": "is",
+          "value": "other"
+        }
+      }
     }
   ],
   "heading": "Leaver Details",

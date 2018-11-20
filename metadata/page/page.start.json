@@ -5,7 +5,6 @@
   "lede": "Why do users complete this form?",
   "steps": [
     "page.leaver-details",
-    "page.other-employment--2",
     "page.manager-details",
     "page.tech-used",
     "page.check-submit"
